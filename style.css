@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Evita barras de desplazamiento innecesarias */
+    display: flex;
+    justify-content: center; /* Centra el canvas horizontalmente */
+    align-items: center; /* Centra el canvas verticalmente */
+    min-height: 100vh; /* Asegura que el body ocupe al menos el alto de la ventana */
+    background-color: #87CEEB; /* Un color de fondo similar al cielo */
+}
+
+#gameCanvas {
+    border: 1px solid #000; /* Un borde para visualizar el canvas (opcional) */
+}
